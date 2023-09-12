@@ -19,7 +19,7 @@ podspec = Pod::Spec.new do |spec|
     :tag => "1.18.0",
   }
 
-  spec.platforms = { :ios => "9.0", :tvos => "12.0" }
+  spec.platforms = { :ios => "9.0", :visionos => "1.0" }
   spec.ios.deployment_target = '8.0'
   spec.ios.frameworks = 'UIKit'
   spec.module_name = 'YogaKit'
